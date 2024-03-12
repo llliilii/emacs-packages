@@ -1,9 +1,7 @@
 ;;; init.el --- init file for github ci -*- coding: utf-8; lexical-binding: t; -*-
 
 
-;;; Commentary:
 
-;; (setq package-archives
 ;; init file for github ci
 
 
@@ -56,7 +54,6 @@
       quelpa-git-clone-depth 1)
 
 (quelpa '(once :fetcher github :repo "emacs-magus/once" :files (:defaults "once-setup/once-setup.el")))
-(quelpa '(color-theme-sanityinc-tomorrow :fetcher github :repo ""))
 
 
 (defmacro package! (package)
